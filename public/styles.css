@@ -1,0 +1,70 @@
+body{
+  background-image: url(/Users/laura/Desktop/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Biryani', sans-serif;
+}
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.row {
+  margin:5%;
+}
+.text{
+  color: white;
+  font-size: 1.1rem;
+  margin: 25% auto;
+  padding-left: 10%;
+}
+
+.inputs{
+  text-align: center;
+}
+
+.try{
+  background-color: hsl(248, 32%, 49%);
+  width: 80%;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 3rem;
+  border-radius: 0.5rem;
+  border-style: hidden;
+}
+
+.form{
+  background-color: white;
+  width: 80%;
+  margin: 5% auto;
+  padding: 5%;
+  border-radius: 2%;
+  line-height: 3rem;
+}
+
+.field{
+  margin: auto;
+  width: 100%;
+  border-radius: 10;
+  margin-bottom: 15px
+}
+
+.submit{
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  border-bottom-style: outset;
+}
+
+.terms{
+  color: grey;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 0.9rem;
+}
+@media(max-width: 375px) {
+  body{
+    background-image: url(/Users/laura/Desktop/intro-component-with-signup-form-master/images/bg-intro-mobile.png);
+  }
+  }
